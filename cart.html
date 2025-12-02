@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/path/to/responsive-cards.css">
+
+  <title>Premium Watch Cart</title>
+
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="./alistyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="nav_main">
+    <div class="nav_wrapper">
+      <div class="logo_img">
+        <a href="../index.html"><img src="../pictures/chrono elite.png" alt="ChronoElite Logo" id="img16"></a>
+      </div>
+      <div class="nav_links_container">
+        <a href="../index.html" class="nav_item">Home</a>
+        <a href="./card1.html" class="nav_item">Watches</a>
+        <a href="./about.html" class="nav_item">About</a>
+        <a href="./contact.html" class="nav_item">Help</a>
+      </div>
+      <div class="nav_right_stuff">
+        <div class="search_wrap">
+          <input placeholder="Search watches..." type="search" class="search_field">
+          <i class="ri-search-line search_icon_thing"></i>
+        </div>
+        <div class="icons_box">
+          <a href="./1contact.html"> <i class="fa-solid fa-user user_icon"></i></a>
+          <a href="./cart.html" class=" nav_item active_now"><i class="fa-solid fa-cart-shopping cart_icon"></i></a>
+        </div>
+
+        <div class="mobile_btn_thing">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>Shopping Cart</h2>
+    </div>
+
+    <div class="card">
+      <h2>Summary</h2>
+      <div class="summary">
+        <p>Subtotal: <span id="subtotal">PKR 0</span></p>
+        <p>Discount: <span id="discount">—</span></p>
+        <p>Shipping: <span id="shipping">PKR 0</span></p>
+        <hr />
+        <p><strong>Total:</strong> <strong id="total">PKR 0</strong></p>
+      <a href="../index.html">  <button class="btn" id="checkoutBtn">Proceed to Checkout</button></a>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("checkoutBtn").onclick = () => {
+        alert("Please Register Your Account!");
+      };
+
+
+    </script>
+
+</body>
+
+</html>

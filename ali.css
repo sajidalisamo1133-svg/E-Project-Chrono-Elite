@@ -1,0 +1,281 @@
+* {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.main-cnt {
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  position: relative;
+  TOP: 100px;
+}
+
+.cnt1 {
+  height: 350px;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 13px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.cnt1:hover {
+  box-shadow: 0 6px 19px rgba(0, 0, 0, 0.2);
+  transform: translateY(5px);
+}
+
+.pic {
+  height: 250px;
+  width: 200px;
+}
+
+.w-pic {
+  height: 300px;
+  width: 180px;
+  position: relative;
+  bottom: 60px;
+}
+
+.s-pic {
+  height: 250px;
+  width: 220px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500&display=swap');
+
+body {
+  background-color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.watch-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  padding: 60px 80px;
+  position: relative;
+  top: 100px;
+}
+
+.watch-card {
+  position: relative;
+  background: #fff;
+  text-align: center;
+  padding: 25px 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 250px;
+}
+
+.watch-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.watch-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.watch-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin: 8px 0 4px;
+}
+
+.watch-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 0 0 15px;
+}
+
+.tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+
+.add-to-cart {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart:hover {
+  color: #000000;
+  transform: translateY(-2px);
+}
+
+
+.more-btn {
+  display: inline-block;
+  margin: 40px auto;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.more-btn:hover {
+  background: #ffffff;
+  color: #111111;
+}
+
+.button-container {
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.watch-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  padding: 60px 80px;
+  position: relative;
+  top: 100px;
+}
+
+.watch-card {
+  position: relative;
+  background: #fff;
+  text-align: center;
+  padding: 25px 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 250px;
+}
+
+.watch-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.watch-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.watch-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin: 8px 0 4px;
+}
+
+.watch-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 0 0 15px;
+}
+
+.tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+
+.add-to-cart {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart:hover {
+  color: #000;
+  transform: translateY(-2px);
+}
+
+
+.more-btn {
+  display: inline-block;
+  margin: 40px auto;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.more-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.wa-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  justify-items: center;
+  padding: 60px 80px;
+  position: relative;
+  top: 400px;
+}
+
+.hh1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 350px;
+}

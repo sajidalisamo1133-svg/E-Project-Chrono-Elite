@@ -1,0 +1,115 @@
+* {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.cart-badge {
+  background: #f39c12;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  margin-bottom: 20px;
+  top: 700px;
+}
+#close{
+  margin-top: 30px;
+  margin-left: 95%;
+}
+.card h2 {
+  margin: 0;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.item-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.summary {
+  padding: 16px;
+}
+
+.summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.btn {
+  background: #111;
+  color: #fff;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+.empty {
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
